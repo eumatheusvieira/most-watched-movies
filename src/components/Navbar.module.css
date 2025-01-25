@@ -1,0 +1,23 @@
+.navbarContainer {
+    font-family: Arial;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .9em 2em;
+    background-color: #272727;
+    box-shadow: 0 0 10px black;
+}
+
+.title {
+    text-decoration: none;
+    color: white;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.userIcon {
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+}

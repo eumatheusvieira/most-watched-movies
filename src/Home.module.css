@@ -1,0 +1,91 @@
+.pageContainer {
+    margin: 1em;
+}
+
+.title {
+    color: white;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+.title h1 {
+    margin: .6em 1em;
+}
+
+.movies {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.movieCard {
+    padding: 1em;
+    box-shadow: 0 0 20px black;
+    gap: 1em;
+    font-family: arial;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    color: white;
+    margin: 1em;
+}
+
+.movieCard img {
+    height: 280px;
+}
+
+.movieTitle {
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.description {
+    color: rgb(209, 209, 209);
+}
+
+.details {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: end;
+
+}
+
+.btn {
+    background-color: rgb(17, 17, 17);
+    border: none;
+    color: white;
+    padding: 1em;
+    border-radius: 8px;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 2px 8px black;
+}
+
+@media (max-width: 600px) {
+    .movieCard {
+        flex-direction: column;
+    }
+
+    .movieCard img {
+        height: auto;
+    }
+
+    .details {
+        gap: 2em;
+        align-items: center;
+        text-align: center;
+    }
+}

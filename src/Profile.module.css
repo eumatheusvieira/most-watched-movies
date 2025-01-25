@@ -1,0 +1,39 @@
+body {
+    font-family: arial;
+    color: white;
+}
+
+.userIcon {
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.userContainer {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin: 2em;
+}
+
+.name {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.userContent {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.btn {
+    background-color: rgb(17, 17, 17);
+    border: none;
+    color: white;
+    padding: 1em;
+    border-radius: 8px;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 2px 8px black;
+}
